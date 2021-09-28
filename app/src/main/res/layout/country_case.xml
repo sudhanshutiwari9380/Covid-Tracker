@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:padding="10dp"
+    android:background="#F3F0F6"    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Case"
+        android:textColor="#03A9F4"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:id="@+id/countryName"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000"
+        android:textColor="#03A9F4"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:id="@+id/country_case"
+        android:layout_alignParentRight="true"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Death"
+        android:textColor="#F44336"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/countryName"
+
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000"
+        android:textSize="15sp"
+        android:textColor="#F44336"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:id="@+id/country_death"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/countryName"
+        >
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Recovered"
+        android:textSize="15sp"
+        android:textColor="#F44336"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/country_death"
+
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:id="@+id/country_Recovered"
+        android:textColor="#F44336"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/country_death"
+        >
+
+    </TextView>
+
+
+
+</RelativeLayout>

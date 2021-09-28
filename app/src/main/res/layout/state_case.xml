@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            android:background="#F3F0F6"
+            android:padding="20dp"
+            android:layout_margin="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F0F6">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Case"
+                    android:textColor="#03A9F4"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/stateName"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0000"
+                    android:textSize="15sp"
+                    android:textColor="#03A9F4"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/state_case"
+                    android:layout_alignParentRight="true"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/state_case"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="5dp"
+                    android:text="Total Deaths"
+                    android:textColor="#F44336"
+                    android:textSize="15sp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0000"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/state_Death"
+                    android:layout_below="@+id/state_case"
+                    android:layout_alignParentRight="true"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recovered"
+                    android:textColor="#F44336"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+
+                    android:layout_below="@+id/state_Death"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0000"
+                    android:textSize="15sp"
+                    android:textColor="#F44336"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/state_Recovered"
+                    android:layout_below="@+id/state_Death"
+                    android:layout_alignParentRight="true"
+                    >
+
+                </TextView>
+
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

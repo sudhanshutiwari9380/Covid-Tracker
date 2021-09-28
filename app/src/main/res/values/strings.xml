@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sudhanshu</string>
+    <string name="covid19">/@Covid19</string>
+    <string name="Home">Home</string>
+    <string name="India">India</string>
+    <string name="all_country">All Country</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="worldwide">WorldWide</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="covid_19">Covid-19</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="total_cases">Total cases</string>
+    <string name="deaths">Deaths</string>
+    <string name="recovered">Recovered</string>
+    <string name="gii">total_deaths</string>
+    <string name="gj">total_cases</string>
+    <string name="akash">akashraj.tech/corona/api</string>
+    <string name="covid_description">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness. The best way to prevent and slow down transmission is to be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face. The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).</string>
+</resources>

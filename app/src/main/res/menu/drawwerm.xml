@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/home">
+
+    </item>
+
+    <item
+        android:title="Call"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:id="@+id/call">
+
+    </item>
+    <item
+        android:title="Share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:id="@+id/share">
+
+    </item>
+    <item
+        android:title="About"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/about">
+
+    </item>
+
+    <item
+        android:title="vaccination"
+        android:icon="@drawable/injection"
+
+        android:id="@+id/injection">
+
+    </item>
+
+</menu>
